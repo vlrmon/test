@@ -154,5 +154,6 @@ cfg.trl         = trl;
 data            = ft_redefinetrial(cfg,data);
 
 
+
 %% SAVE EPOCHED DATA
-save(fullfile(dirs.sb.save,files.sb.save),'data');
+save(fullfile(dirs.sb.save,files.sb.save),'data'); %tetest;
